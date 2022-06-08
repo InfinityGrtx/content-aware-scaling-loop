@@ -139,7 +139,7 @@ async function doCarve(url, gif, callback, callbackvars){try{
 	window.memvas.height=window.d.canvas.width;
 	window.memtext.save();
 	window.memtext.translate(0,window.memvas.height);
-	window.memtext.scale(gif?1.05:2,gif?1.05:2);
+	window.memtext.scale(gif?1.05:5,gif?1.05:5);
 	window.memtext.rotate(Math.PI/-2);
 	window.memtext.drawImage(imgd,0,0);
 	window.memtext.restore();
